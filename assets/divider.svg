@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 12" width="1000" height="12" role="presentation">
+<defs><linearGradient id="d" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#89b4fa" stop-opacity="0"/><stop offset=".3" stop-color="#89b4fa"/><stop offset=".7" stop-color="#cba6f7"/><stop offset="1" stop-color="#cba6f7" stop-opacity="0"/></linearGradient></defs>
+<style>.dot{animation:run 5s ease-in-out infinite alternate}@keyframes run{from{transform:translateX(-380px)}to{transform:translateX(380px)}}</style>
+<rect x="0" y="5" width="1000" height="2" rx="1" fill="url(#d)" opacity=".7"/>
+<circle class="dot" cx="500" cy="6" r="4" fill="#b4befe"/>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="1000" height="280" role="img" aria-label="Javier - Full-stack developer, building with AI">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1e1e2e"/><stop offset="1" stop-color="#181825"/></linearGradient>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#89b4fa"/><stop offset=".55" stop-color="#74c7ec"/><stop offset="1" stop-color="#b4befe"/></linearGradient>
+  <clipPath id="round"><rect width="1000" height="280" rx="22"/></clipPath>
+  <clipPath id="typed"><rect class="reveal" x="48" y="92" width="0" height="30"/></clipPath>
+</defs>
+<style>
+  text{font-family:'JetBrains Mono','Fira Code',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+  .wave1{animation:drift 10s ease-in-out infinite alternate}
+  .wave2{animation:drift 14s ease-in-out infinite alternate-reverse}
+  .orb{animation:float 6s ease-in-out infinite}
+  .o2{animation-delay:-2s} .o3{animation-delay:-4s}
+  .reveal{animation:type 3s steps(29) .4s forwards}
+  .cursor{opacity:0;animation:blink 1s step-end infinite 3.4s}
+  .title{animation:rise 1.2s ease-out both}
+  @keyframes drift{from{transform:translateX(-50px)}to{transform:translateX(50px)}}
+  @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-14px)}}
+  @keyframes type{to{width:320px}}
+  @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
+  @keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+</style>
+<g clip-path="url(#round)">
+  <rect width="1000" height="280" fill="url(#bg)"/>
+  <g opacity=".16"><path class="wave1" d="M-100 215 C 100 165, 250 265, 450 215 S 800 165, 1100 225 L1100 300 L-100 300Z" fill="#89b4fa"/></g>
+  <g opacity=".14"><path class="wave2" d="M-100 240 C 120 200, 300 285, 520 240 S 850 205, 1100 250 L1100 300 L-100 300Z" fill="#b4befe"/></g>
+  <circle class="orb" cx="840" cy="90" r="46" fill="none" stroke="#89b4fa" stroke-width="2" opacity=".55"/>
+  <circle class="orb o2" cx="900" cy="170" r="22" fill="#cba6f7" opacity=".35"/>
+  <circle class="orb o3" cx="770" cy="200" r="12" fill="#74c7ec" opacity=".5"/>
+  <circle class="orb o2" cx="930" cy="52" r="7" fill="#b4befe" opacity=".7"/>
+  <circle cx="52" cy="40" r="6" fill="#f38ba8"/><circle cx="72" cy="40" r="6" fill="#f9e2af"/><circle cx="92" cy="40" r="6" fill="#a6e3a1"/>
+  <text x="48" y="113" font-size="18" fill="#a6adc8" clip-path="url(#typed)">~ $ npx create-awesome-things</text>
+  <rect class="cursor" x="368" y="96" width="10" height="20" fill="#89b4fa"/>
+  <text class="title" x="46" y="190" font-size="78" font-weight="800" fill="url(#g)">Javier</text>
+  <text class="title" x="48" y="228" font-size="21" fill="#cdd6f4" style="animation-delay:.3s">Full-stack Developer <tspan fill="#cba6f7">&#215;</tspan> Building with AI</text>
+</g>
+<rect x=".5" y=".5" width="999" height="279" rx="22" fill="none" stroke="#313244"/>
+</svg>
